@@ -1,0 +1,18 @@
+dn: cn=Nou Detrinca,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: Nou Detrinca
+cn: El becario
+sn: Pou
+homephone: 555-222-2221
+mail: nou@edt.org
+description: esxample 
+ou: Pringaos
+uid: nou
+uidNumber: 5050
+gidNumber: 100
+homeDirectory: /tmp/home/nou
+userPassword: {MD5}i3VhXYpBFtjzheUe2MVTKQ==
+
+
+

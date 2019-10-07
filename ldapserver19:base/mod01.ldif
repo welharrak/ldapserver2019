@@ -1,0 +1,32 @@
+dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org 
+changetype: modify
+replace: mail
+mail: noumail@edt.org
+-
+replace: homePhone
+homePhone: 123-456-789
+-
+delete: description
+-
+add: description
+description: New description of this beautiful guy
+
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: delete
+
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: add
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: Anna Pou
+cn: Anita Pou
+sn: Pou
+homephone: 555-222-2222
+mail: anna@edt.org
+description: Watch out for this girl
+ou: Alumnes
+uid: anna
+uidNumber: 5002
+gidNumber: 600
+homeDirectory: /tmp/home/anna
+userPassword: {SSHA}Bm4B3Bu/fuH6Bby9lgxfFAwLYrK0RbOq
