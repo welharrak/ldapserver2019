@@ -1,0 +1,13 @@
+dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: homePhone
+homePhone: 627352618
+-
+replace: uidNumber
+uidNumber: 999
+-
+add: cn
+cn: LA Anna
+-
+replace: userPassword
+userPassword: {SSHA}jEXx4Fysg4D04JauXwJ0jzFt7mnZMaqa 

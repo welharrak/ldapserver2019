@@ -1,0 +1,10 @@
+dn: cn=New New,ou=usuaris,dc=edt,dc=org
+changetype: add
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: New New
+sn: The New
+uid: new
+uidNumber: 5051
+gidNumber: 10
+homeDirectory: C:\IsO
