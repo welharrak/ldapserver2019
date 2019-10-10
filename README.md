@@ -3,4 +3,7 @@
 
 Repositori de creació d'imatges de servidors ldap
 
-* **ldapserver:base** servidor ldap bàsic.
+* **ldapserver19:base** servidor ldap bàsic.
+
+* **ldapserver19:multi** servidor amb dues bases de dades, dc=edt,dc=org i dc=m06,dc=cat.
+
