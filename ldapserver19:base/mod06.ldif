@@ -1,0 +1,6 @@
+dn: cn=Marta Mas,ou=maquines,dc=edt,dc=org
+changetype: modrdn
+newrdn: cn=Marta Mas
+deleteoldrdn: 0
+newsuperior: ou=usuaris,dc=edt,dc=org
+ 
