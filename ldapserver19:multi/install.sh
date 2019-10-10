@@ -10,7 +10,7 @@ cp /opt/docker/DB_CONFIG /var/lib/ldap
 cp /opt/docker/DB_CONFIG /var/lib/ldap.edt.org
 cp /opt/docker/DB_CONFIG /var/lib/ldap.m06.cat
 
-slaptest -f /opt/docker/slapd.conf -F /etc/openldap/slapd.d/ -u
+slaptest -f /opt/docker/slapd.conf -F /etc/openldap/slapd.d
 
 slapadd -F /etc/openldap/slapd.d -l /opt/docker/edt.org.ldif
 slapadd -b 'dc=m06,dc=cat' -F /etc/openldap/slapd.d -l /opt/docker/m06.cat.ldif
