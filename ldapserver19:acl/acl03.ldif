@@ -1,0 +1,5 @@
+dn: olcDatabase={1}mdb,cn=config
+changetype: modify
+replace: olcAccess
+olcAccess: to attrs=homePhone by dn.exact="cn=Marta Mas,ou=usuaris,dc=edt,dc=org" write by * read
+olcAccess: to * by * write
