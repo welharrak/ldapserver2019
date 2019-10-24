@@ -1,0 +1,12 @@
+dn: cn=kaka, ou=Productes,dc=edt,dc=org
+objectclass: inetOrgPerson
+objectclass: x-futbolistes
+sn: kaka dos santos
+cn: kaka
+x-equip: los pimientos
+x-dorsal: 99
+x-web: www.kaka99.com
+x-foto: ///var/tmp/kaka.jpg
+x-lesionat: FALSE
+homePhone: 627-273-029
+mail: ballondor@kaka.rm
