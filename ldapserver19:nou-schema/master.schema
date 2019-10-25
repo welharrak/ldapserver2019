@@ -1,4 +1,4 @@
-attributetype ( 1.1.2.1.1 NAME 'x-nom-treball'
+atitributetype ( 1.1.2.1.1 NAME 'x-nom-treball'
   DESC 'Nom del treball'
   EQUALITY caseIgnoreMatch
   SUBSTR caseIgnoreSubstringsMatch
@@ -22,7 +22,7 @@ attributetype ( 1.1.2.1.4 NAME 'x-web'
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
 
 attributetype ( 1.1.2.1.5 NAME 'x-foto'
-  DESC 'Foto de l'alumne'
+  DESC 'Foto de alumne'
   SYNTAX 1.3.6.1.4.1.1466.115.121.1.40 ) 
 
 objectclass ( 1.1.2.2.1 NAME 'x-master'

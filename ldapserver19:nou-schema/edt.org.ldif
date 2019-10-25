@@ -29,7 +29,7 @@ objectclass: organizationalunit
 dn: uid=pau,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
-objectclass: master
+objectclass: x-master
 cn: Pau Pou
 cn: Pauet Pou
 sn: Pou
