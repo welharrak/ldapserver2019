@@ -7,3 +7,5 @@
 
 - Configuració client ldap.conf: ldapserver / dc=edt,dc=org
 
+- Diferents permisos pels usuaris depenent dels acl
+

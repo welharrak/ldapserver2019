@@ -7,3 +7,6 @@ Repositori de creació d'imatges de servidors ldap
 
 * **ldapserver19:multi** servidor amb dues bases de dades, dc=edt,dc=org i dc=m06,dc=cat.
 
+* **ldapserver19:acl** servidor amb diferents permisos acl.
+
+* **ldapserver19:schema** servidor amb schemes afegits.

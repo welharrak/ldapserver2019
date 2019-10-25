@@ -7,3 +7,4 @@
 
 - Configuració client ldap.conf: ldapserver / dc=edt,dc=org
 
+- Schema futbolistes afegit, amb un nou objectclass i nous atributs
