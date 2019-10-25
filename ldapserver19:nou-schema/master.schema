@@ -1,4 +1,4 @@
-atitributetype ( 1.1.2.1.1 NAME 'x-nom-treball'
+attributetype ( 1.1.2.1.1 NAME 'x-nom-treball'
   DESC 'Nom del treball'
   EQUALITY caseIgnoreMatch
   SUBSTR caseIgnoreSubstringsMatch
