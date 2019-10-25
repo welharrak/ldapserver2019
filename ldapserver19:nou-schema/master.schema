@@ -1,0 +1,39 @@
+attributetype ( 1.1.2.1.1 NAME 'x-nom-treball'
+  DESC 'Nom del treball'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15
+  SINGLE-VALUE )
+
+attributetype ( 1.1.2.1.2 NAME 'x-descripcio'
+  DESC 'Petita descripcio del treball'
+  EQUALITY caseIgnoreMatch
+  SUBSTR caseIgnoreSubstringsMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+attributetype ( 1.1.2.1.3 NAME 'x-nota'
+  DESC 'Nota del treball'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.27
+  SINGLE-VALUE )
+
+attributetype ( 1.1.2.1.4 NAME 'x-web'
+  DESC 'Pagina on es troba penjat el treball'
+  EQUALITY caseExactMatch
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.15 )
+
+attributetype ( 1.1.2.1.5 NAME 'x-foto'
+  DESC 'Foto de l'alumne'
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.40 ) 
+
+objectclass ( 1.1.2.2.1 NAME 'x-master'
+  DESC 'Master'
+  SUP top
+  AUXILIARY
+  MUST ( x-nom-treball $ x-nota )
+  MAY ( x-descripcio $ x-web $ x-foto ) )
+
+
+
+
+
+
