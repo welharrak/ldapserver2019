@@ -117,6 +117,46 @@ gidNumber: 100
 homeDirectory: /tmp/home/jordi
 userPassword: {SSHA}T5jrMgpJwZZgu0azkLIVoYhiG08/KGUv
 
+dn: uid=arthur,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: x-master
+cn: Arthur Smith
+sn: Arthur
+homephone: 596-567-543
+mail: arthur@edt.org
+description: A very handsome guy
+uid: arthur
+x-nom-treball: The english literature
+x-descripcio: The history of the english literature
+x-nota: 6
+x-web: www.master.com/arthur
+x-foto: /opt/docker/images/arthur.jpg
+uidNumber: 5291
+gidNumber: 210
+homeDirectory: /tmp/home/arthur
+userPassword: {SSHA}qJ3NryFW4A6/P4E+84weXkhsDmpel9cZ
+
+dn: uid=sara,ou=usuaris,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+objectclass: x-master
+cn: Sara Sar
+sn: Sara
+homephone: 596-567-546
+mail: sara@edt.org
+description: A very tall girl
+uid: sara
+x-nom-treball: Windows vs Linux
+x-descripcio: The history of the english literature
+x-nota: 5
+x-web: www.master.com/arthur
+x-foto: /opt/docker/images/arthur.jpg
+uidNumber: 5291
+gidNumber: 210
+homeDirectory: /tmp/home/arthur
+userPassword: {SSHA}qJ3NryFW4A6/P4E+84weXkhsDmpel9cZ
+
 dn: uid=admin,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
