@@ -148,10 +148,10 @@ mail: sara@edt.org
 description: A very tall girl
 uid: sara
 x-nom-treball: Windows vs Linux
-x-descripcio: The history of the english literature
-x-nota: 5
-x-web: www.master.com/arthur
-x-foto: /opt/docker/images/arthur.jpg
+x-descripcio: Who created the best opreating system, Bill Gates or Linus Torvalds?
+x-nota: 7
+x-web: www.master.com/sara
+x-foto: /opt/docker/images/sara.jpg
 uidNumber: 5291
 gidNumber: 210
 homeDirectory: /tmp/home/arthur
