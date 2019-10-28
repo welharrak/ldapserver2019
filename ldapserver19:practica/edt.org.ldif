@@ -42,7 +42,7 @@ x-nom-treball: Els ordinadors quantics
 x-descripcio: Son possibles els ordinadors qunatics?
 x-nota: 9
 x-web: www.master.com
-x-foto: /opt/docker/images/pau.jpg
+x-foto: < file:///opt/docker/img/pau.jpg
 uidNumber: 5000
 gidNumber: 100
 homeDirectory: /tmp/home/pau
@@ -56,7 +56,7 @@ x-nom-treball: Ens escolta Google?
 x-descripcio: Es veritat que Google ens espia?La resposta, al meu treball
 x-nota: 8
 x-web: www.master.com
-x-foto: /opt/docker/images/pere.jpg
+x-foto: < file:///opt/docker/img/pere.jpg
 cn: Pere Pou
 sn: Pou
 homephone: 555-222-2221
@@ -131,7 +131,7 @@ x-nom-treball: The english literature
 x-descripcio: The history of the english literature
 x-nota: 6
 x-web: www.master.com
-x-foto: /opt/docker/images/arthur.jpg
+x-foto: < file:///opt/docker/img/arthur.jpg
 uidNumber: 5004
 gidNumber: 210
 homeDirectory: /tmp/home/arthur
@@ -151,7 +151,7 @@ x-nom-treball: Windows vs Linux
 x-descripcio: Who created the best opreating system, Bill Gates or Linus Torvalds?
 x-nota: 7
 x-web: www.master.com
-x-foto: /opt/docker/images/sara.jpg
+x-foto: < file:///opt/docker/img/sara.jpg
 uidNumber: 5005
 gidNumber: 211
 homeDirectory: /tmp/home/arthur
