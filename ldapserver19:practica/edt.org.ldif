@@ -40,6 +40,7 @@ ou: Profes
 uid: pau
 x-nom-treball: Els ordinadors quantics
 x-descripcio: Son possibles els ordinadors qunatics?
+x-aprobat: true
 x-nota: 9
 x-web: www.master.com
 x-foto: < file:///opt/docker/img/pau.jpg
@@ -54,6 +55,7 @@ objectclass: inetOrgPerson
 objectclass: x-master
 x-nom-treball: Ens escolta Google?
 x-descripcio: Es veritat que Google ens espia?La resposta, al meu treball
+x-aprobat: true
 x-nota: 8
 x-web: www.master.com
 x-foto: < file:///opt/docker/img/pere.jpg
@@ -129,7 +131,7 @@ description: A very handsome guy
 uid: arthur
 x-nom-treball: The english literature
 x-descripcio: The history of the english literature
-x-nota: 6
+x-aprobat: true
 x-web: www.master.com
 x-foto: < file:///opt/docker/img/arthur.jpg
 uidNumber: 5004
@@ -149,6 +151,7 @@ description: A very tall girl
 uid: sara
 x-nom-treball: Windows vs Linux
 x-descripcio: Who created the best opreating system, Bill Gates or Linus Torvalds?
+x-aprobat: true
 x-nota: 7
 x-web: www.master.com
 x-foto: < file:///opt/docker/img/sara.jpg

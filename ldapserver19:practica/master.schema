@@ -23,17 +23,17 @@ attributetype ( 1.1.2.1.4 NAME 'x-web'
 
 attributetype ( 1.1.2.1.5 NAME 'x-foto'
   DESC 'Foto de alumne'
-  SYNTAX 1.3.6.1.4.1.1466.115.121.1.40 ) 
+  SYNTAX 1.3.6.1.4.1.1466.115.121.1.28 )
+
+attributetype ( 1.1.2.1.6 NAME ( 'x-aprobat' )
+ DESC 'master aprobat o no'
+ EQUALITY  booleanMatch
+ SYNTAX  1.3.6.1.4.1.1466.115.121.1.7
+ SINGLE-VALUE )
 
 objectclass ( 1.1.2.2.1 NAME 'x-master'
   DESC 'Master'
   SUP top
   AUXILIARY
-  MUST ( x-nom-treball $ x-nota )
-  MAY ( x-descripcio $ x-web $ x-foto ) )
-
-
-
-
-
-
+  MUST ( x-nom-treball $ x-aprobat )
+  MAY ( x-descripcio $ x-web $ x-foto $ x-nota) )
