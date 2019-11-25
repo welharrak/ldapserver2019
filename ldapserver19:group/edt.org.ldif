@@ -94,7 +94,7 @@ ou: 2asix
 uid: user04
 uidNumber: 7004
 gidNumber: 610
-homeDirectory: /tmp/home/1asix/user04
+homeDirectory: /tmp/home/2asix/user04
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
 dn: cn=user05,ou=grups,dc=edt,dc=org
@@ -109,7 +109,7 @@ ou: 2asix
 uid: user05
 uidNumber: 7005
 gidNumber: 610
-homeDirectory: /tmp/home/1asix/user05
+homeDirectory: /tmp/home/2asix/user05
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
 dn: cn=user06,ou=grups,dc=edt,dc=org
@@ -139,7 +139,7 @@ ou: 2dam
 uid: user07
 uidNumber: 7007
 gidNumber: 620
-homeDirectory: /tmp/home/2asix/user07
+homeDirectory: /tmp/home/2dam/user07
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
 dn: cn=user08,ou=grups,dc=edt,dc=org
@@ -154,7 +154,7 @@ ou: 2dam
 uid: user08
 uidNumber: 7008
 gidNumber: 620
-homeDirectory: /tmp/home/2asix/user08
+homeDirectory: /tmp/home/2dam/user08
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
 dn: cn=user09,ou=grups,dc=edt,dc=org
@@ -169,5 +169,5 @@ ou: 2dam
 uid: user09
 uidNumber: 7009
 gidNumber: 620
-homeDirectory: /tmp/home/2asix/user09
+homeDirectory: /tmp/home/2dam/user09
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
