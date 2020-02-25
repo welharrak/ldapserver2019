@@ -225,3 +225,63 @@ uidNumber: 7011
 gidNumber: 630
 homeDirectory: /tmp/home/users/jordi
 userPassword: jordi
+
+dn: cn=pau,ou=grups,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: pau
+sn: pau
+homephone: 555-222-0009
+mail: pau@edt.org
+description: alumne de users
+ou: users
+uid: pau
+uidNumber: 7012
+gidNumber: 630
+homeDirectory: /tmp/home/users/pau
+userPassword: pau
+
+dn: cn=anna,ou=grups,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: anna
+sn: anna
+homephone: 555-222-0009
+mail: anna@edt.org
+description: alumne de users
+ou: users
+uid: anna
+uidNumber: 7013
+gidNumber: 630
+homeDirectory: /tmp/home/users/anna
+userPassword: anna
+
+dn: cn=julia,ou=grups,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: julia
+sn: julia
+homephone: 555-222-0009
+mail: julia@edt.org
+description: alumne de users
+ou: users
+uid: julia
+uidNumber: 7014
+gidNumber: 630
+homeDirectory: /tmp/home/users/julia
+userPassword: julia
+
+dn: cn=admin,ou=grups,dc=edt,dc=org
+objectclass: posixAccount
+objectclass: inetOrgPerson
+cn: admin
+sn: admin
+homephone: 555-222-0009
+mail: admin@edt.org
+description: alumne de users
+ou: users
+uid: admin
+uidNumber: 7015
+gidNumber: 630
+homeDirectory: /tmp/home/users/admin
+userPassword: admin
