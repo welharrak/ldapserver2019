@@ -17,4 +17,3 @@ chown -R ldap.ldap /var/lib/ldap
 
 
 cp /opt/docker/ldap.conf /etc/openldap/.
-
