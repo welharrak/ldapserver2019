@@ -3,7 +3,7 @@ FROM fedora:27
 LABEL version="1.0"
 LABEL author="WalidElHarrak"
 LABEL subject="ldapserver"
-RUN dnf install -y openldap-servers openldap-clients
+RUN dnf install -y openldap-servers openldap-clients procps openssl
 RUN mkdir /opt/docker
 COPY * /opt/docker/
 RUN chmod +x /opt/docker/startup.sh

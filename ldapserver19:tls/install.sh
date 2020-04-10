@@ -6,6 +6,8 @@ rm -rf /var/lib/ldap/*
 
 mkdir /var/lib/ldap.edt.org
 
+bash tls.sh
+
 cp /opt/docker/DB_CONFIG /var/lib/ldap
 
 slaptest -f /opt/docker/slapd.conf -F /etc/openldap/slapd.d
