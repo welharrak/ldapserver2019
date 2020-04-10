@@ -33,6 +33,7 @@ extendedKeyUsage = serverAuth,emailProtection
 ```
 [root@ldap certs]# openssl x509 -CA ca.crt -CAkey ca.key -req -in server.csr -days 365 -sha1 -extfile ca.conf -CAcreateserial -out server.crt
 ```
+![foto4](./aux/4.png)
 
 6. Una vegada creats els certificats, el copiem a **/etc/openldap/certs**; i afegim les següent línies al fitxer de configuració de ldap, **slapd.conf**:
 ```
@@ -54,7 +55,7 @@ BASE dc=edt,dc=org
 URI ldaps://ldap.edt.org
 
 #TLS_CACERTDIR  /etc/openldap/certs  #cal comentar aquesta linia
-TLS_CACERT /etc/openldap/certs/ca.crt
+TLS_CACERT /etc/openldap/certs/ca.crtz
 ```
 
 8. Finalment, a l'hora de engegar el servidor ldap, hem d'utilitzar **-h** per a que faci diferents bind depenent del mètode que s'utilizi:
@@ -65,4 +66,30 @@ TLS_CACERT /etc/openldap/certs/ca.crt
 ```
 
 ### Pasos al client:
-1.  
+1. Al client caldria editar el **ldap.conf**:
+```
+BASE    dc=edt,dc=org
+URI     ldaps://172.17.0.2 #aqui posem la ip/servername del servidor ldap
+
+TLS_CACERT /var/tmp/certs/ca.crt  #ruta local on tinguem el certificat
+TLS_REQCERT allow
+```
+
+### Comprobacions:
+- **ldapserch -x -LLL -ZZ: sense certificat:**
+![foto5](./aux/5.png)
+
+- **ldapserch -X -LLL -ZZ: amb certificat:**
+![foto6](./aux/6.png)
+
+- **ldapserch -x -LLL -H ldap://172.17.0.2 (insegur):**
+![foto7](./aux/7.png)
+
+- **ldapserch -x -LLL -H ldaps://172.17.0.2 (segur):**
+![foto8](./aux/8.png)
+
+- **Utilitzant StartTls sense certificat:**
+![foto9](./aux/9.png)
+
+- **Utilitzant StartTls amb certificat:**
+![foto10](./aux/10.png)
