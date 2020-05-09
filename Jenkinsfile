@@ -15,7 +15,7 @@ pipeline {
 
     stage('Stop ldapserver running containers') {
       steps {
-        sh 'docker stop ldapserver'
+        sh 'docker stop ldapserver || echo "there is no ldapserver running container"'
       }
     }
 
