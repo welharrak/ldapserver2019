@@ -1,12 +1,6 @@
 pipeline {
   agent any
   stages {
-    stage('Change directory') {
-      steps {
-        sh 'cd ldapserver19:group'
-      }
-    }
-
     stage('Delete all unused images') {
       steps {
         sh 'echo "y" | docker system prune'
@@ -21,7 +15,7 @@ pipeline {
 
     stage('Build image') {
       steps {
-        sh 'docker build -t ldapserver:latest .'
+        sh 'docker build -t ldapserver:latest ldapserver19:group/.'
       }
     }
 
